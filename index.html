@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--~~~~~~~~~~~~~~~~ index.html of adv-manual.bauska.org ~~~~~~~~~~~~~~~~-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advanced Training Manual</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="app-layout">
+    <nav class="sidebar" id="sidebar" aria-label="Main Navigation">
+      <div class="sidebar-header">
+        <h2>Manual v2.0</h2>
+        <button id="sidebar-toggle" aria-label="Toggle Navigation">☰</button>
+      </div>
+      <ul class="nav-list">
+        <li><a href="#module-1" class="nav-link active">1. Architecture</a></li>
+        <li><a href="#module-2" class="nav-link">2. Security Protocols</a></li>
+        <li><a href="#module-3" class="nav-link">3. Deployment</a></li>
+      </ul>
+    </nav>
+    <main class="content-area">
+      <header class="top-bar">
+        <input type="search" id="search-input" placeholder="Search manual...">
+        <button id="theme-toggle">Dark Mode</button>
+      </header>
+      <article class="container">
+        <section id="module-1" class="manual-module">
+          <h1>Module 1: System Architecture</h1>
+          <p>Advanced overview of core microservices and data pipelines.</p>
+        </section>
+        <section id="module-2" class="manual-module">
+          <h1>Module 2: Security Protocols</h1>
+          <p>Zero-trust implementation and token management rules.</p>
+        </section>
+      </article>
+    </main>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>
